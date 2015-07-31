@@ -1,0 +1,26 @@
+{
+  "name" : "docker-nodejs-basics",
+  "version" : "1.0.0",
+  "main" : "./src/NodeJs-Docker.js",
+  "author" : {
+    "name" : "Jeremy Montupet",
+    "email" : "jeremy@icysoft.fr"
+  },
+  "keywords" : [ "nodejs", "docker", "restify"],
+  "licenses" : {
+    "type" : "MPL2"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/icysoft/docker-nodejs-basics.git"
+  },
+  "bugs" : {
+    "url" : "https://github.com/icysoft/docker-nodejs-basics/issues"
+  },
+  "dependencies" : {
+    "restify" : "^3.0.3"
+  },
+  "scripts" : {
+    "start" : "node src/NodeJs-Docker.js"
+  }
+}
